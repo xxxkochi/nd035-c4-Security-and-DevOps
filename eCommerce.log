@@ -1,0 +1,53 @@
+2021-03-22 08:12:50.392  INFO 4052 --- [main] com.example.demo.SareetaApplication      : Starting SareetaApplication on KOCHAN-PC with PID 4052 (F:\JAVA\projects\nd035-c4-Security-and-DevOps\starter_code\target\classes started by Kochan in F:\JAVA\projects\nd035-c4-Security-and-DevOps)
+2021-03-22 08:12:50.393  INFO 4052 --- [main] com.example.demo.SareetaApplication      : No active profile set, falling back to default profiles: default
+2021-03-22 08:12:50.942  INFO 4052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-03-22 08:12:50.990  INFO 4052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39ms. Found 4 repository interfaces.
+2021-03-22 08:12:51.314  INFO 4052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b0eb7813] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-03-22 08:12:51.537  INFO 4052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-22 08:12:51.554  INFO 4052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-22 08:12:51.554  INFO 4052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2021-03-22 08:12:51.663  INFO 4052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-22 08:12:51.663  INFO 4052 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1225 ms
+2021-03-22 08:12:51.789  INFO 4052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-22 08:12:51.903  INFO 4052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-22 08:12:51.945  INFO 4052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-03-22 08:12:52.019  INFO 4052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.10.Final}
+2021-03-22 08:12:52.020  INFO 4052 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-03-22 08:12:52.153  INFO 4052 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-03-22 08:12:52.254  INFO 4052 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-22 08:12:52.759  INFO 4052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-22 08:12:53.244  WARN 4052 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-22 08:12:53.293  INFO 4052 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b5d7233, org.springframework.security.web.context.SecurityContextPersistenceFilter@3945886e, org.springframework.security.web.header.HeaderWriterFilter@45e35a0d, org.springframework.web.filter.CorsFilter@6be2b567, org.springframework.security.web.authentication.logout.LogoutFilter@1cca2e9d, com.example.demo.security.JWTAuthenticationFilter@169d1f92, com.example.demo.security.JWTAuthenticationVerficationFilter@7fcbc336, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1dac0784, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@65c689e7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1fe7fa16, org.springframework.security.web.session.SessionManagementFilter@3966c679, org.springframework.security.web.access.ExceptionTranslationFilter@74cd8c55, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19540247]
+2021-03-22 08:12:53.368  INFO 4052 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-22 08:12:53.520  INFO 4052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-22 08:12:53.522  INFO 4052 --- [main] com.example.demo.SareetaApplication      : Started SareetaApplication in 3.386 seconds (JVM running for 3.862)
+2021-03-22 08:13:20.349  INFO 4052 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-22 08:13:20.349  INFO 4052 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-22 08:13:20.354  INFO 4052 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-03-22 08:13:20.428  INFO 4052 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Creating user {}test15
+2021-03-22 08:13:20.460 ERROR 4052 --- [http-nio-8080-exec-1] c.e.demo.controllers.UserController      : Error with user password. Unable to create user test15
+2021-03-22 08:13:34.756  INFO 4052 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : Creating user {}test1
+2021-03-22 08:13:34.818  INFO 4052 --- [http-nio-8080-exec-7] c.e.demo.controllers.UserController      : User created {}test1
+2021-03-22 08:13:40.571  INFO 4052 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : Creating user {}test2
+2021-03-22 08:13:40.627  INFO 4052 --- [http-nio-8080-exec-9] c.e.demo.controllers.UserController      : User created {}test2
+2021-03-22 08:13:44.987  INFO 4052 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : Creating user {}test3
+2021-03-22 08:13:45.043  INFO 4052 --- [http-nio-8080-exec-10] c.e.demo.controllers.UserController      : User created {}test3
+2021-03-22 08:13:52.393  INFO 4052 --- [http-nio-8080-exec-3] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-03-22 08:13:52.482  INFO 4052 --- [http-nio-8080-exec-3] c.e.demo.controllers.CartController      : Item added to cart successfully
+2021-03-22 08:13:56.759  INFO 4052 --- [http-nio-8080-exec-4] c.e.demo.controllers.CartController      : Item added to cart successfully
+2021-03-22 08:14:13.641  INFO 4052 --- [http-nio-8080-exec-5] c.e.demo.controllers.OrderController     : Submitting order for user {}test2
+2021-03-22 08:14:13.647  INFO 4052 --- [http-nio-8080-exec-5] c.e.demo.controllers.OrderController     : Order submit successful! For user {}test2
+2021-03-22 08:14:21.676  INFO 4052 --- [http-nio-8080-exec-6] c.e.demo.controllers.OrderController     : Submitting order for user {}test5
+2021-03-22 08:14:21.677 ERROR 4052 --- [http-nio-8080-exec-6] c.e.demo.controllers.OrderController     : Submit error. User not found {}test5
+2021-03-22 08:14:34.275  INFO 4052 --- [http-nio-8080-exec-2] c.e.demo.controllers.CartController      : Item added to cart successfully
+2021-03-22 08:14:41.503  INFO 4052 --- [http-nio-8080-exec-1] c.e.demo.controllers.CartController      : Item added to cart successfully
+2021-03-22 08:14:53.850  INFO 4052 --- [http-nio-8080-exec-8] c.e.demo.controllers.OrderController     : Submitting order for user {}test1
+2021-03-22 08:14:53.854  INFO 4052 --- [http-nio-8080-exec-8] c.e.demo.controllers.OrderController     : Order submit successful! For user {}test1
+2021-03-22 08:16:34.060 ERROR 4052 --- [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Filter execution threw an exception] with root cause
+2021-03-22 08:21:14.043  INFO 4052 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : Creating user {}test4
+2021-03-22 08:21:14.098  INFO 4052 --- [http-nio-8080-exec-5] c.e.demo.controllers.UserController      : User created {}test4
+2021-03-22 08:22:12.162  INFO 4052 --- [http-nio-8080-exec-2] c.e.demo.controllers.CartController      : Item added to cart successfully
+2021-03-22 08:22:29.943  INFO 4052 --- [http-nio-8080-exec-1] c.e.demo.controllers.OrderController     : Submitting order for user {}test4
+2021-03-22 08:22:29.945  INFO 4052 --- [http-nio-8080-exec-1] c.e.demo.controllers.OrderController     : Order submit successful! For user {}test4
